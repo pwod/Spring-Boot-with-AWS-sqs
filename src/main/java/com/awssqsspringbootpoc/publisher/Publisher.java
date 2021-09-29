@@ -23,7 +23,6 @@ public class Publisher {
     @Scheduled(fixedRate = 1000)
     public void scheduleFixedRateTask() {
         log.info("Sending Message to SQS ");
-        //queueMessagingTemplate.send(endpoint, MessageBuilder.withPayload("Niraj").build());
         queueMessagingTemplate.convertAndSend(endpoint, new Pojo("Patrick Oliveira",26));
 
     }
