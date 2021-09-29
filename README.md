@@ -9,6 +9,7 @@ Criação de Fila na AWS com Nome: spring-boot-poc
 **Inserir AWS credentials no arquivo de Configuração .YAML**
 
 substitua amazon.accessKey e amazon.secretKey pelas credenciais de sua conta
+substitui a URL pela url gerada na criação da sua fila.
 
 ### Para rodar aplicação executar os Seguintes comandos:
 
@@ -23,3 +24,4 @@ Java: 11,
 Maven,
 Spring Boot 2.5.5,
 Spring Cloud AWS
+AWS account for using SQS service
